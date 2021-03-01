@@ -1,0 +1,12 @@
+@import './index.scss';
+
+$primary-color: var(--primary-color);
+$primary-text-color: var(--primary-text-color);
+
+body {
+    color: $primary-color;
+}
+
+
+// yarn tsm src/   -> this is to create .d.ts files for scss files
+// document.body.style.setProperty('--text-color', 'yellow') -> to change color
