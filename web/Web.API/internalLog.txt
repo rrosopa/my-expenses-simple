@@ -1,0 +1,427 @@
+2019-04-17 13:23:31.6462 Info Message Template Auto Format enabled
+2019-04-17 13:23:31.6612 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 13:23:31.7411 Info Adding target FileTarget(Name=all-log)
+2019-04-17 13:23:31.7411 Info Adding target FileTarget(Name=app-log)
+2019-04-17 13:23:31.7886 Info Found 45 configuration items
+2019-04-17 13:23:31.8067 Info Configuration initialized.
+2019-04-17 13:23:31.8386 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 13:23:32.8396 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 13:23:32.8396 Info Message Template Auto Format enabled
+2019-04-17 13:23:32.8505 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 13:23:32.8505 Info Adding target FileTarget(Name=all-log)
+2019-04-17 13:23:32.8627 Info Adding target FileTarget(Name=app-log)
+2019-04-17 13:23:32.8627 Info Closing old configuration.
+2019-04-17 13:23:32.8896 Info Found 45 configuration items
+2019-04-17 13:26:40.2805 Info Message Template Auto Format enabled
+2019-04-17 13:26:40.3092 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 13:26:40.4191 Info Adding target FileTarget(Name=logs/all-log)
+2019-04-17 13:26:40.4239 Info Adding target FileTarget(Name=app-log)
+2019-04-17 13:26:40.4856 Error Parsing configuration from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\bin\Debug\netcoreapp2.1\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\bin\Debug\netcoreapp2.1\NLog.config.  ---> NLog.NLogConfigurationException: Target 'all-log' not found for logging rule: *.
+   at NLog.Config.LoggingConfigurationParser.ParseLoggingRuleTargets(String writeTargets, LoggingRule rule)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-04-17 13:26:40.4856 Warn Failed loading config from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\bin\Debug\netcoreapp2.1\NLog.config. Invalid XML?
+2019-04-17 13:26:40.5103 Info Found 42 configuration items
+2019-04-17 13:26:40.5302 Info Configuration initialized.
+2019-04-17 13:26:40.5461 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 13:26:41.4522 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 13:26:41.4522 Info Message Template Auto Format enabled
+2019-04-17 13:26:41.4522 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 13:26:41.4522 Info Adding target FileTarget(Name=logs/all-log)
+2019-04-17 13:26:41.4522 Info Adding target FileTarget(Name=app-log)
+2019-04-17 13:26:41.4680 Error Parsing configuration from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config.  ---> NLog.NLogConfigurationException: Target 'all-log' not found for logging rule: *.
+   at NLog.Config.LoggingConfigurationParser.ParseLoggingRuleTargets(String writeTargets, LoggingRule rule)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-04-17 13:26:41.4680 Warn Failed loading config from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config. Invalid XML?
+2019-04-17 13:26:41.4680 Info Closing old configuration.
+2019-04-17 13:26:41.4860 Info Found 42 configuration items
+2019-04-17 13:27:31.8503 Info Message Template Auto Format enabled
+2019-04-17 13:27:31.8655 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 13:27:31.9585 Info Adding target FileTarget(Name=logs/all-log)
+2019-04-17 13:27:31.9585 Info Adding target FileTarget(Name=app-log)
+2019-04-17 13:27:32.0202 Error Parsing configuration from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\bin\Debug\netcoreapp2.1\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\bin\Debug\netcoreapp2.1\NLog.config.  ---> NLog.NLogConfigurationException: Target 'all-log' not found for logging rule: *.
+   at NLog.Config.LoggingConfigurationParser.ParseLoggingRuleTargets(String writeTargets, LoggingRule rule)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-04-17 13:27:32.0202 Warn Failed loading config from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\bin\Debug\netcoreapp2.1\NLog.config. Invalid XML?
+2019-04-17 13:27:32.0420 Info Found 42 configuration items
+2019-04-17 13:27:32.0631 Info Configuration initialized.
+2019-04-17 13:27:32.0841 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 13:27:32.8980 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 13:27:32.8980 Info Message Template Auto Format enabled
+2019-04-17 13:27:32.8980 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 13:27:32.8980 Info Adding target FileTarget(Name=logs/all-log)
+2019-04-17 13:27:32.8980 Info Adding target FileTarget(Name=app-log)
+2019-04-17 13:27:32.9113 Error Parsing configuration from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config.  ---> NLog.NLogConfigurationException: Target 'all-log' not found for logging rule: *.
+   at NLog.Config.LoggingConfigurationParser.ParseLoggingRuleTargets(String writeTargets, LoggingRule rule)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-04-17 13:27:32.9113 Warn Failed loading config from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config. Invalid XML?
+2019-04-17 13:27:32.9113 Info Closing old configuration.
+2019-04-17 13:27:32.9316 Info Found 42 configuration items
+2019-04-17 13:29:15.6736 Info Message Template Auto Format enabled
+2019-04-17 13:29:15.6842 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 13:29:15.7595 Info Adding target FileTarget(Name=logs/all-log)
+2019-04-17 13:29:15.7615 Info Adding target FileTarget(Name=app-log)
+2019-04-17 13:29:15.7973 Error Parsing configuration from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\bin\Debug\netcoreapp2.1\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\bin\Debug\netcoreapp2.1\NLog.config.  ---> NLog.NLogConfigurationException: Target 'all-log' not found for logging rule: *.
+   at NLog.Config.LoggingConfigurationParser.ParseLoggingRuleTargets(String writeTargets, LoggingRule rule)
+   at NLog.Config.LoggingConfigurationParser.ParseRuleElement(ILoggingConfigurationElement loggerElement)
+   at NLog.Config.LoggingConfigurationParser.ParseRulesElement(ILoggingConfigurationElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2019-04-17 13:29:15.7973 Warn Failed loading config from C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\bin\Debug\netcoreapp2.1\NLog.config. Invalid XML?
+2019-04-17 13:29:15.8256 Info Found 42 configuration items
+2019-04-17 13:29:15.8400 Info Configuration initialized.
+2019-04-17 13:29:15.8400 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 13:29:16.7378 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 13:29:16.7378 Info Message Template Auto Format enabled
+2019-04-17 13:29:16.7467 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 13:29:16.7747 Info Adding target FileTarget(Name=all-log)
+2019-04-17 13:29:16.7747 Info Adding target FileTarget(Name=app-log)
+2019-04-17 13:29:16.7892 Info Closing old configuration.
+2019-04-17 13:29:16.8031 Info Found 45 configuration items
+2019-04-17 14:23:03.5257 Info Message Template Auto Format enabled
+2019-04-17 14:23:03.5425 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 14:23:03.6492 Info Adding target FileTarget(Name=all-log)
+2019-04-17 14:23:03.6492 Info Adding target FileTarget(Name=app-log)
+2019-04-17 14:23:03.6931 Info Found 45 configuration items
+2019-04-17 14:23:03.7084 Info Configuration initialized.
+2019-04-17 14:23:03.7084 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 14:23:04.9903 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 14:23:04.9903 Info Message Template Auto Format enabled
+2019-04-17 14:23:04.9903 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 14:23:05.0000 Info Adding target FileTarget(Name=all-log)
+2019-04-17 14:23:05.0000 Info Adding target FileTarget(Name=app-log)
+2019-04-17 14:23:05.0000 Info Closing old configuration.
+2019-04-17 14:23:05.0273 Info Found 45 configuration items
+2019-04-17 14:59:25.3449 Info Message Template Auto Format enabled
+2019-04-17 14:59:25.3572 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 14:59:25.4849 Info Adding target FileTarget(Name=all-log)
+2019-04-17 14:59:25.4849 Info Adding target FileTarget(Name=app-log)
+2019-04-17 14:59:25.5201 Info Found 45 configuration items
+2019-04-17 14:59:25.5321 Info Configuration initialized.
+2019-04-17 14:59:25.5409 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 14:59:26.4830 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 14:59:26.4830 Info Message Template Auto Format enabled
+2019-04-17 14:59:26.4830 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 14:59:26.4930 Info Adding target FileTarget(Name=all-log)
+2019-04-17 14:59:26.4930 Info Adding target FileTarget(Name=app-log)
+2019-04-17 14:59:26.4930 Info Closing old configuration.
+2019-04-17 14:59:26.5327 Info Found 45 configuration items
+2019-04-17 15:00:09.8855 Info Message Template Auto Format enabled
+2019-04-17 15:00:09.9019 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 15:00:10.0325 Info Adding target FileTarget(Name=all-log)
+2019-04-17 15:00:10.0325 Info Adding target FileTarget(Name=app-log)
+2019-04-17 15:00:10.0694 Info Found 45 configuration items
+2019-04-17 15:00:10.0825 Info Configuration initialized.
+2019-04-17 15:00:10.0825 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 15:00:10.9496 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 15:00:10.9496 Info Message Template Auto Format enabled
+2019-04-17 15:00:10.9594 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 15:00:10.9594 Info Adding target FileTarget(Name=all-log)
+2019-04-17 15:00:10.9594 Info Adding target FileTarget(Name=app-log)
+2019-04-17 15:00:10.9594 Info Closing old configuration.
+2019-04-17 15:00:10.9862 Info Found 45 configuration items
+2019-04-17 15:05:55.2402 Info Message Template Auto Format enabled
+2019-04-17 15:05:55.2620 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 15:05:55.3842 Info Adding target FileTarget(Name=all-log)
+2019-04-17 15:05:55.3897 Info Adding target FileTarget(Name=app-log)
+2019-04-17 15:05:55.4293 Info Found 45 configuration items
+2019-04-17 15:05:55.4460 Info Configuration initialized.
+2019-04-17 15:05:55.4588 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 15:05:56.3644 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 15:05:56.3644 Info Message Template Auto Format enabled
+2019-04-17 15:05:56.3732 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 15:05:56.3732 Info Adding target FileTarget(Name=all-log)
+2019-04-17 15:05:56.3732 Info Adding target FileTarget(Name=app-log)
+2019-04-17 15:05:56.3732 Info Closing old configuration.
+2019-04-17 15:05:56.3981 Info Found 45 configuration items
+2019-04-17 16:18:27.0263 Info Message Template Auto Format enabled
+2019-04-17 16:18:27.0428 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 16:18:27.1565 Info Adding target FileTarget(Name=all-log)
+2019-04-17 16:18:27.1592 Info Adding target FileTarget(Name=app-log)
+2019-04-17 16:18:27.2096 Info Found 45 configuration items
+2019-04-17 16:18:27.2283 Info Configuration initialized.
+2019-04-17 16:18:27.2440 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 16:18:28.1882 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 16:18:28.1882 Info Message Template Auto Format enabled
+2019-04-17 16:18:28.1956 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 16:18:28.1956 Info Adding target FileTarget(Name=all-log)
+2019-04-17 16:18:28.1956 Info Adding target FileTarget(Name=app-log)
+2019-04-17 16:18:28.1956 Info Closing old configuration.
+2019-04-17 16:18:28.2236 Info Found 45 configuration items
+2019-04-17 16:29:59.1116 Info Message Template Auto Format enabled
+2019-04-17 16:29:59.1298 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 16:29:59.2779 Info Adding target FileTarget(Name=all-log)
+2019-04-17 16:29:59.2779 Info Adding target FileTarget(Name=app-log)
+2019-04-17 16:29:59.3323 Info Found 45 configuration items
+2019-04-17 16:29:59.3513 Info Configuration initialized.
+2019-04-17 16:29:59.3659 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-17 16:30:00.4103 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-17 16:30:00.4111 Info Message Template Auto Format enabled
+2019-04-17 16:30:00.4111 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-17 16:30:00.4111 Info Adding target FileTarget(Name=all-log)
+2019-04-17 16:30:00.4111 Info Adding target FileTarget(Name=app-log)
+2019-04-17 16:30:00.4111 Info Closing old configuration.
+2019-04-17 16:30:00.4526 Info Found 45 configuration items
+2019-04-25 10:40:16.2100 Info Message Template Auto Format enabled
+2019-04-25 10:40:16.2265 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-25 10:40:16.3450 Info Adding target FileTarget(Name=all-log)
+2019-04-25 10:40:16.3473 Info Adding target FileTarget(Name=app-log)
+2019-04-25 10:40:16.3955 Info Found 45 configuration items
+2019-04-25 10:40:16.4113 Info Configuration initialized.
+2019-04-25 10:40:16.4113 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-25 10:42:17.8716 Info Message Template Auto Format enabled
+2019-04-25 10:42:17.8716 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-25 10:42:17.9400 Info Adding target FileTarget(Name=all-log)
+2019-04-25 10:42:17.9400 Info Adding target FileTarget(Name=app-log)
+2019-04-25 10:42:17.9672 Info Found 45 configuration items
+2019-04-25 10:42:17.9672 Info Configuration initialized.
+2019-04-25 10:42:17.9672 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-25 10:43:15.3742 Info Message Template Auto Format enabled
+2019-04-25 10:43:15.3929 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-25 10:43:15.5139 Info Adding target FileTarget(Name=all-log)
+2019-04-25 10:43:15.5139 Info Adding target FileTarget(Name=app-log)
+2019-04-25 10:43:15.5626 Info Found 45 configuration items
+2019-04-25 10:43:15.5793 Info Configuration initialized.
+2019-04-25 10:43:15.5922 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-25 10:43:45.0320 Info Message Template Auto Format enabled
+2019-04-25 10:43:45.0320 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-25 10:43:45.0867 Info Adding target FileTarget(Name=all-log)
+2019-04-25 10:43:45.0867 Info Adding target FileTarget(Name=app-log)
+2019-04-25 10:43:45.1152 Info Found 45 configuration items
+2019-04-25 10:43:45.1253 Info Configuration initialized.
+2019-04-25 10:43:45.1253 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-25 10:49:37.6350 Info Message Template Auto Format enabled
+2019-04-25 10:49:37.6532 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-25 10:49:37.7596 Info Adding target FileTarget(Name=all-log)
+2019-04-25 10:49:37.7596 Info Adding target FileTarget(Name=app-log)
+2019-04-25 10:49:37.8075 Info Found 45 configuration items
+2019-04-25 10:49:37.8228 Info Configuration initialized.
+2019-04-25 10:49:37.8311 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-25 10:49:38.7417 Info Configuring from an XML element in C:\Users\ranulfo.rosopa\Documents\projects\base-web-api\Web.API\nlog.config...
+2019-04-25 10:49:38.7417 Info Message Template Auto Format enabled
+2019-04-25 10:49:38.7417 Info Loading assembly: NLog.Web.AspNetCore
+2019-04-25 10:49:38.7417 Info Adding target FileTarget(Name=all-log)
+2019-04-25 10:49:38.7417 Info Adding target FileTarget(Name=app-log)
+2019-04-25 10:49:38.7549 Info Closing old configuration.
+2019-04-25 10:49:38.7819 Info Found 45 configuration items
+2019-05-17 14:42:37.3104 Info Message Template Auto Format enabled
+2019-05-17 14:42:37.3424 Info Loading assembly: NLog.Web.AspNetCore
+2019-05-17 14:42:37.5258 Info Adding target FileTarget(Name=all-log)
+2019-05-17 14:42:37.5258 Info Adding target FileTarget(Name=app-log)
+2019-05-17 14:42:37.5958 Info Found 45 configuration items
+2019-05-17 14:42:37.6194 Info Configuration initialized.
+2019-05-17 14:42:37.6370 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-05-17 14:42:39.2686 Info Configuring from an XML element in C:\Users\RJ\projects\base-setup-web-api\Web.API\nlog.config...
+2019-05-17 14:42:39.2686 Info Message Template Auto Format enabled
+2019-05-17 14:42:39.2686 Info Loading assembly: NLog.Web.AspNetCore
+2019-05-17 14:42:39.2746 Info Adding target FileTarget(Name=all-log)
+2019-05-17 14:42:39.2746 Info Adding target FileTarget(Name=app-log)
+2019-05-17 14:42:39.2746 Info Closing old configuration.
+2019-05-17 14:42:39.3225 Info Found 45 configuration items
+2020-10-10 00:29:42.2323 Info Message Template Auto Format enabled
+2020-10-10 00:29:42.2685 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 00:29:42.3588 Info Adding target FileTarget(Name=all-log)
+2020-10-10 00:29:42.3779 Info Adding target FileTarget(Name=app-log)
+2020-10-10 00:29:42.4329 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 00:30:56.8096 Info Shutdown() called. Logger closing...
+2020-10-10 00:30:56.8096 Info Closing old configuration.
+2020-10-10 00:30:56.8606 Info Logger has been closed down.
+2020-10-10 00:31:47.6801 Info Message Template Auto Format enabled
+2020-10-10 00:31:47.7020 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 00:31:47.7911 Info Adding target FileTarget(Name=all-log)
+2020-10-10 00:31:47.7911 Info Adding target FileTarget(Name=app-log)
+2020-10-10 00:31:47.8505 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 00:31:55.9704 Info Shutdown() called. Logger closing...
+2020-10-10 00:31:55.9795 Info Closing old configuration.
+2020-10-10 00:31:56.0243 Info Logger has been closed down.
+2020-10-10 00:36:04.6751 Info Message Template Auto Format enabled
+2020-10-10 00:36:04.6971 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 00:36:04.7681 Info Adding target FileTarget(Name=all-log)
+2020-10-10 00:36:04.7825 Info Adding target FileTarget(Name=app-log)
+2020-10-10 00:36:04.8370 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 00:41:34.5948 Info Message Template Auto Format enabled
+2020-10-10 00:41:34.6167 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 00:41:34.7016 Info Adding target FileTarget(Name=all-log)
+2020-10-10 00:41:34.7163 Info Adding target FileTarget(Name=app-log)
+2020-10-10 00:41:34.7633 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 01:07:42.9760 Info Message Template Auto Format enabled
+2020-10-10 01:07:43.0088 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 01:07:43.0893 Info Adding target FileTarget(Name=all-log)
+2020-10-10 01:07:43.1032 Info Adding target FileTarget(Name=app-log)
+2020-10-10 01:07:43.1477 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 01:08:14.3006 Info Message Template Auto Format enabled
+2020-10-10 01:08:14.3225 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 01:08:14.3978 Info Adding target FileTarget(Name=all-log)
+2020-10-10 01:08:14.4047 Info Adding target FileTarget(Name=app-log)
+2020-10-10 01:08:14.4580 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 01:10:24.5196 Info Message Template Auto Format enabled
+2020-10-10 01:10:24.5424 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 01:10:24.6213 Info Adding target FileTarget(Name=all-log)
+2020-10-10 01:10:24.6356 Info Adding target FileTarget(Name=app-log)
+2020-10-10 01:10:24.6808 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 01:11:03.5931 Info Message Template Auto Format enabled
+2020-10-10 01:11:03.6200 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 01:11:03.6960 Info Adding target FileTarget(Name=all-log)
+2020-10-10 01:11:03.7026 Info Adding target FileTarget(Name=app-log)
+2020-10-10 01:11:03.7596 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 01:12:09.6121 Info Message Template Auto Format enabled
+2020-10-10 01:12:09.6355 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 01:12:09.7191 Info Adding target FileTarget(Name=all-log)
+2020-10-10 01:12:09.7330 Info Adding target FileTarget(Name=app-log)
+2020-10-10 01:12:09.7784 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 01:13:41.8333 Info Message Template Auto Format enabled
+2020-10-10 01:13:41.8605 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 01:13:41.9349 Info Adding target FileTarget(Name=all-log)
+2020-10-10 01:13:41.9490 Info Adding target FileTarget(Name=app-log)
+2020-10-10 01:13:41.9972 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-10-10 01:58:57.8952 Info Message Template Auto Format enabled
+2020-10-10 01:58:57.9331 Info Loading assembly: NLog.Web.AspNetCore
+2020-10-10 01:58:58.0253 Info Adding target FileTarget(Name=all-log)
+2020-10-10 01:58:58.0414 Info Adding target FileTarget(Name=app-log)
+2020-10-10 01:58:58.0913 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-28 20:39:03.6415 Info Message Template Auto Format enabled
+2020-11-28 20:39:03.7465 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-28 20:39:03.9687 Info Adding target FileTarget(Name=all-log)
+2020-11-28 20:39:03.9880 Info Adding target FileTarget(Name=app-log)
+2020-11-28 20:39:04.0525 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-28 20:47:12.6728 Info Message Template Auto Format enabled
+2020-11-28 20:47:12.7063 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-28 20:47:12.7974 Info Adding target FileTarget(Name=all-log)
+2020-11-28 20:47:12.8146 Info Adding target FileTarget(Name=app-log)
+2020-11-28 20:47:12.8816 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-28 20:48:22.8066 Info Message Template Auto Format enabled
+2020-11-28 20:48:22.8547 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-28 20:48:22.9533 Info Adding target FileTarget(Name=all-log)
+2020-11-28 20:48:22.9739 Info Adding target FileTarget(Name=app-log)
+2020-11-28 20:48:23.0390 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-29 09:52:07.2615 Info Message Template Auto Format enabled
+2020-11-29 09:52:07.3416 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-29 09:52:07.4767 Info Adding target FileTarget(Name=all-log)
+2020-11-29 09:52:07.5003 Info Adding target FileTarget(Name=app-log)
+2020-11-29 09:52:07.5617 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-02-28 23:51:37.3674 Info Message Template Auto Format enabled
+2021-02-28 23:51:37.5971 Info Loading assembly: NLog.Web.AspNetCore
+2021-02-28 23:51:37.7727 Info Adding target FileTarget(Name=all-log)
+2021-02-28 23:51:37.7961 Info Adding target FileTarget(Name=app-log)
+2021-02-28 23:51:37.9503 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\base-setup-web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 15:16:25.9498 Info Message Template Auto Format enabled
+2021-03-01 15:16:26.0022 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:16:26.0719 Info Adding target FileTarget(Name=all-log)
+2021-03-01 15:16:26.1113 Info Adding target FileTarget(Name=app-log)
+2021-03-01 15:16:26.1581 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 15:17:10.3082 Info Message Template Auto Format enabled
+2021-03-01 15:17:10.3277 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:17:10.3990 Info Adding target FileTarget(Name=all-log)
+2021-03-01 15:17:10.4223 Info Adding target FileTarget(Name=app-log)
+2021-03-01 15:17:10.4928 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 15:23:37.4946 Info Message Template Auto Format enabled
+2021-03-01 15:23:37.5382 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:23:37.6638 Info Adding target FileTarget(Name=all-log)
+2021-03-01 15:23:37.6866 Info Adding target FileTarget(Name=app-log)
+2021-03-01 15:23:37.7870 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 15:27:27.3265 Info Message Template Auto Format enabled
+2021-03-01 15:27:27.3700 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:27:27.4870 Info Adding target FileTarget(Name=all-log)
+2021-03-01 15:27:27.4974 Info Adding target FileTarget(Name=app-log)
+2021-03-01 15:27:27.5805 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 15:45:18.6531 Info Message Template Auto Format enabled
+2021-03-01 15:45:18.6887 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:45:18.8053 Info Adding target FileTarget(Name=all-log)
+2021-03-01 15:45:18.8283 Info Adding target FileTarget(Name=app-log)
+2021-03-01 15:45:18.9140 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 15:48:59.9634 Info Message Template Auto Format enabled
+2021-03-01 15:49:00.0101 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:49:00.1758 Info Adding target FileTarget(Name=all-log)
+2021-03-01 15:49:00.1969 Info Adding target FileTarget(Name=app-log)
+2021-03-01 15:49:00.2685 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 15:50:31.5183 Info Message Template Auto Format enabled
+2021-03-01 15:50:31.5565 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:50:31.6760 Info Adding target FileTarget(Name=all-log)
+2021-03-01 15:50:31.6993 Info Adding target FileTarget(Name=app-log)
+2021-03-01 15:50:31.8601 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 15:53:44.3730 Info Message Template Auto Format enabled
+2021-03-01 15:53:44.4101 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 15:53:44.5263 Info Adding target FileTarget(Name=all-log)
+2021-03-01 15:53:44.5495 Info Adding target FileTarget(Name=app-log)
+2021-03-01 15:53:44.6214 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 16:15:39.1648 Info Message Template Auto Format enabled
+2021-03-01 16:15:39.2037 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 16:15:39.3334 Info Adding target FileTarget(Name=all-log)
+2021-03-01 16:15:39.3543 Info Adding target FileTarget(Name=app-log)
+2021-03-01 16:15:39.4238 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 19:35:37.0591 Info Message Template Auto Format enabled
+2021-03-01 19:35:37.1049 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 19:35:37.1658 Info Adding target FileTarget(Name=all-log)
+2021-03-01 19:35:37.1658 Info Adding target FileTarget(Name=app-log)
+2021-03-01 19:35:37.2190 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 19:37:44.7902 Info Message Template Auto Format enabled
+2021-03-01 19:37:44.9086 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 19:37:45.0181 Info Adding target FileTarget(Name=all-log)
+2021-03-01 19:37:45.0348 Info Adding target FileTarget(Name=app-log)
+2021-03-01 19:37:45.0867 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 19:39:12.1488 Info Message Template Auto Format enabled
+2021-03-01 19:39:12.1691 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 19:39:12.2293 Info Adding target FileTarget(Name=all-log)
+2021-03-01 19:39:12.2520 Info Adding target FileTarget(Name=app-log)
+2021-03-01 19:39:12.3071 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 19:40:42.2906 Info Message Template Auto Format enabled
+2021-03-01 19:40:42.3287 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 19:40:42.3860 Info Adding target FileTarget(Name=all-log)
+2021-03-01 19:40:42.3860 Info Adding target FileTarget(Name=app-log)
+2021-03-01 19:40:42.4378 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 19:41:40.9231 Info Message Template Auto Format enabled
+2021-03-01 19:41:40.9446 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 19:41:40.9934 Info Adding target FileTarget(Name=all-log)
+2021-03-01 19:41:41.0140 Info Adding target FileTarget(Name=app-log)
+2021-03-01 19:41:41.0596 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 19:42:35.5112 Info Message Template Auto Format enabled
+2021-03-01 19:42:35.5302 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 19:42:35.5881 Info Adding target FileTarget(Name=all-log)
+2021-03-01 19:42:35.5881 Info Adding target FileTarget(Name=app-log)
+2021-03-01 19:42:35.6396 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 19:43:03.8205 Info Message Template Auto Format enabled
+2021-03-01 19:43:03.8396 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 19:43:03.9014 Info Adding target FileTarget(Name=all-log)
+2021-03-01 19:43:03.9014 Info Adding target FileTarget(Name=app-log)
+2021-03-01 19:43:03.9500 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 19:44:09.5237 Info Message Template Auto Format enabled
+2021-03-01 19:44:09.5418 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 19:44:09.5965 Info Adding target FileTarget(Name=all-log)
+2021-03-01 19:44:09.6086 Info Adding target FileTarget(Name=app-log)
+2021-03-01 19:44:09.6449 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 19:45:08.6919 Info Message Template Auto Format enabled
+2021-03-01 19:45:08.7123 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 19:45:08.7626 Info Adding target FileTarget(Name=all-log)
+2021-03-01 19:45:08.7810 Info Adding target FileTarget(Name=app-log)
+2021-03-01 19:45:08.8253 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 20:09:12.7846 Info Message Template Auto Format enabled
+2021-03-01 20:09:12.8229 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 20:09:12.9498 Info Adding target FileTarget(Name=all-log)
+2021-03-01 20:09:12.9712 Info Adding target FileTarget(Name=app-log)
+2021-03-01 20:09:13.0519 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\dashboard\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
+2021-03-01 21:16:11.4265 Info Message Template Auto Format enabled
+2021-03-01 21:16:11.4751 Info Loading assembly: NLog.Web.AspNetCore
+2021-03-01 21:16:11.6990 Info Adding target FileTarget(Name=all-log)
+2021-03-01 21:16:11.7308 Info Adding target FileTarget(Name=app-log)
+2021-03-01 21:16:11.8260 Info Validating config: TargetNames=all-log, app-log, ConfigItems=45, FilePath=D:\Users\RJ\Documents\projects\my-expenses-simple\web-api\Web.API\bin\Debug\netcoreapp3.1\nlog.config
